@@ -1,0 +1,2 @@
+.js[[:space:]].css[[:space:]].html[[:space:]].png[[:space:]].jpg[[:space:]].mp4 filter=lfs diff=lfs merge=lfs -text
+<portFolioV3>/* filter=lfs diff=lfs merge=lfs -text

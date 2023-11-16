@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="main.css">
+  <title>NITIN SHREEPAD KOLEKAR</title>
+</head>
+
+<body>
+  <header class="bg-dark py-2">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+      <a class="navbar-brand" href="#">NITIN SHREEPAD KOLEKAR</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#about" data-en="About" data-ja="約" id="about-link">About</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-en="Projects" data-ja="プロジェクト">Projects</a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#project" data-en="Project" data-ja="プロジェクト">Project</a>
+              <a class="dropdown-item" href="#project1" data-en="Project 1" data-ja="プロジェクト 1">Project 1</a>
+              <a class="dropdown-item" href="#project2" data-en="Project 2" data-ja="プロジェクト 2">Project 2</a>
+              <a class="dropdown-item" href="#project3" data-en="Project 3" data-ja="プロジェクト 3">Project 3</a>
+              <a class="dropdown-item" href="#project4" data-en="Project 4" data-ja="プロジェクト 4">Project 4</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact" data-en="Certification" data-ja="認定">Certifications</a>
+          </li>
+
+        </ul>
+        <div class="dropdown">
+          <button class="btn btn-secondary" type="button" id="language-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <span id="language-text" data-en="EN" data-ja="JP">EN</span>
+          </button>
+          <div class="dropdown-menu" aria-labelledby="language-toggle">
+            <a class="dropdown-item" href="#" id="en-language" data-en="English" data-ja="英語">EN</a>
+            <a class="dropdown-item" href="#" id="ja-language" data-en="Japanese" data-ja="日本語">JP</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <section id="about" class="py-5">
+    <div class="container">
+      <div class="overlay"></div>
+      <div class="aboutme_cont">
+        <div class="center-content">
+          <img id="my-photo" src="Nitin.png" alt="Your Photo">
+          <h1 id="me" data-en="NITIN SHREEPAD KOLEKAR" data-ja="ニティン・シュリパド・コレカル">NITIN SHREEPAD KOLEKAR</h1>
+          <p data-en="Application Developer." data-ja="アプリケーション開発者。">Application Developer.</p>
+          <div class="social-media-buttons">
+            <a href="https://www.linkedin.com/in/nitin-shreepad-kolekar-692545267?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app " class="social-media-button">
+              <img src="Linkedin.png" alt="LinkedIn" width="30" height="30">
+            </a>
+            <a href=" https://www.instagram.com/invites/contact/?i=1xlz55zd1cla9&utm_content=jderv5t " class="social-media-button">
+              <img src="Instagram.png" alt="Instagram" width="30" height="30">
+            </a>
+            <a href="mailto:nitinskolekar@email.com" target="_blank">
+              <img src="gmail.png" alt="Gmail" width="35" height="35">
+            </a>
+          </div>
+        </div>
+      </div>
+      <video autoplay loop muted id="video-background">
+        <source src="nagoya.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+  </section>
+  <section id="projects" class="py-5">
+    <div class="container" id="maincont">
+      <div class="project_cont">
+        <section id="project" class="py-5">
+          <h1 data-en="Projects" data-ja="プロジェクト" id="projtitle">プロジェクト</h1>
+        </section>
+        <section id="project1" class="py-5" style="background-image: url('project1.jpg');">
+          <div class="project p-4">
+            <h2>
+              <span class="titles" class="title-en" data-en="Project 1: Cloud-based smart biometric security model for automobiles using Python" data-ja="プロジェクト 1: Pythonを使用した自動車用のクラウドベースのスマートバイオメトリックセキュリティモデル"></span>
+            </h2>
+            <div class="proj">
+              <p data-en="A Smart security system that enables the owners of private Owned-public transportation companies to keep track or have control over their vehicles with this security module. In this model, the user of the vehicle is first recognized with the help of a face recognition module installed near the dashboard/speedometer. The face data is compared with the data in the cloud. If the data matches, the relay is used, which switches between two power states, turns off or breaks the circuit, connects to the motors, and makes the driver unable to use the car. At the same moment, the owner is also prompted with a message to whether to permit the unknown user to drive the vehicle. If the owner permits, then the owner can track the vehicle with the help of a GSM module installed, and if the vehicle travels farther than the permitted distance, then the driver can again control the relay/turn it off with the help of the cloud. The relay is controlled by the Arduino according to the data provided by the cloud."
+                data-ja="自家用公共交通会社の所有者が、このセキュリティモジュールを使用して車両を追跡または制御できるスマートセキュリティシステム。このモデルでは、車両のユーザーは、ダッシュボード/スピードメーター近くに設置された顔認識モジュールを使用して最初に認識されます。顔のデータはクラウド内のデータと比較されます。データが一致した場合、リレーが使用され、2つの電力状態間を切り替え、回路をオフにしたり切断したりし、モーターに接続し、運転手が車を使用できなくします。同時に、所有者には不明なユーザーに車両を運転許可するかどうかのメッセージが表示されます。所有者が許可する場合、所有者はGSMモジュールを使用して車両を追跡でき、車両が許可された距離よりも遠くに移動する場合、運転手は再びクラウドのヘルプでリレーを制御/オフにできます。リレーはクラウドから提供されるデータに従ってArduinoによって制御されます。">
+              </p>
+              <br>
+              <p data-en="Step 1: Open admin panel" data-ja="ステップ1: 管理パネルを開く"></p>
+              <img src="Picture1Proj1.png" alt="LinkedIn" width="800px" height="400px" class="responsive">
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <p data-en="Step 2: Use admin panel to register the owner's face initially" data-ja="ステップ2: 初めに所有者の顔を登録するために管理パネルを使用"></p>
+              <img src="p2.png" alt="Instagram" width="800px" height="400px" class="responsive">
+              <br>
+              <br>
+              <br>
+              <br>
+              <p data-en="Step 3: Can register up to 5 faces at a time" data-ja="ステップ3: 一度に最大5つの顔を登録できます"></p>
+              <img src="p3.png" alt="Instagram" width="800px" height="400px" class="responsive">
+              <br>
+              <br>
+              <br>
+              <br>
+              <p data-en="Step 4: Face Recognition system for the switching of relay using python" data-ja="ステップ4: Pythonを使用したリレーの切り替え用の顔認識システム"></p>
+
+
+              <img src="p4.png" alt="Instagram" width="800px" height="400px" class="responsive">
+              <p data-en="SPDT relay turning on for the correctly recognized face, switching to a higher power level, and acting as a closed switch." data-ja="SPDTリレーは正しく認識された顔のためにオンになり、より高い電力レベルに切り替わり、閉じたスイッチとして機能します。"></p>
+
+              <img src="p5.png" alt="Instagram" width="800px" height="400px" class="responsive">
+              <p data-en="SPDT relay turning off for the unrecognized face, switching to a lower power level, and acting as an open switch. In this case, the model will prompt the owner about some unknown user accessing the vehicle."
+                data-ja="SPDTリレーは認識されなかった顔のためにオフになり、より低い電力レベルに切り替わり、オープンスイッチとして機能します。この場合、モデルは所有者に車両へのアクセスを試みる不明なユーザーについて警告します。"></p>
+              <img src="p6.png" alt="Instagram" width="400px" height="800px">
+              <br>
+              <br>
+              <br>
+              <br>
+              <p data-en="Step 5: Based on the confirmation and authentication, the relay is again turned on, and the user can access the vehicle. The following is the flow diagram of the further process."
+                data-ja="ステップ5: 確認と認証に基づいて、リレーは再びオンになり、ユーザーは車両にアクセスできます。以下はさらなるプロセスのフローダイアグラムです。"></p>
+              <img src="p7.png" alt="Instagram" width="600px" height="1200px">
+              <p data-en="Even after allowing the user, he or she can be monitored and tracked, and if the user moves beyond the allowed limit, the relay can be instructed to turn off, hence having absolute control over the vehicle."
+                data-ja="ユーザーに許可した後でも、ユーザーは監視および追跡され、ユーザーが許可された制限を超えて移動する場合、リレーはオフにするように指示できるため、車両を完全に制御できます。"></p>
+            </div>
+          </div>
+
+        </section>
+
+        <hr class="line">
+        <section id="project2" class="py-5">
+          <div class="project p-4">
+            <h2>
+              <span class="titles" class="title-en" data-en="Project 2 : AR applications using C#, unity, and Vuforia database" data-ja="プロジェクト 2 : C＃、Unity、およびVuforiaデータベースを使用したARアプリケーション">
+              </span>
+            </h2>
+            <div class="proj">
+              <p>
+                <span data-en="Took a Udemy course where I got to learn various aspects of AR and had a hands-on experience while working with ARONE app database from Vuforia, unity, C# programming, and building amazing AR applications such as"
+                  data-ja="UdemyのコースでARのさまざまな側面を学び、Vuforia、Unity、C＃プログラミングを使用したARONEアプリデータベースでの実務経験を積み、次のような素晴らしいARアプリケーションを構築しました。">
+                  Took a Udemy course where I got to learn various aspects of AR and had a hands-on experience while working with ARONE app database from Vuforia, unity, C# programming, and building amazing AR applications such as
+                </span>
+              </p>
+              <ul>
+                <li data-en="Augmented Reality Book (ARBOOK) application" data-ja="拡張現実ブック（ARBOOK）アプリケーション"></li>
+                <li data-en="Virtual Button & Augmented Reality Business Card (ARBusinessCard)" data-ja="バーチャルボタン＆拡張現実名刺（ARBusinessCard）"></li>
+                <li data-en="Augmented Reality Greeting Card" data-ja="拡張現実の挨拶カード"></li>
+                <li data-en="Superimposition based AR | Object tracking" data-ja="重ね合わせベースのAR | オブジェクトトラッキング"></li>
+                <li data-en="Cylindrical Object tracking" data-ja="円筒形のオブジェクトトラッキング"></li>
+                <li data-en="Vuforia Cloud Recognition" data-ja="Vuforiaクラウド認識"></li>
+                <li data-en="Ground Planes and MidAir" data-ja="グラウンドプレーンとミッドエア"></li>
+                <li data-en="User Defined Target" data-ja="ユーザー定義のターゲット"></li>
+              </ul>
+            </div>
+
+            <div class="video-container">
+              <video controls class="responsive" muted>
+                <source src="2.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+              <video controls class="responsive" muted>
+                <source src="3.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+              <video controls class="responsive" muted>
+                <source src="4.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+              <video controls class="responsive" muted>
+                <source src="5.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+
+            </div>
+          </div>
+        </section>
+        <hr class="line">
+        <section id="project3" class="py-5" style="background-image: url('project3.jpg');">
+          <div class="project p-4">
+            <h2 class="titles" data-en="Project 3: Highway road lane detector" data-ja="プロジェクト 3: 高速道路車線検出装置">
+              Project 3 : Highway road lane detector
+            </h2>
+            <p data-en="A highway road lane detector is a critical component of advanced driver assistance systems (ADAS) and autonomous vehicles. It is a technology designed to identify and track lane markings on the road, such as solid lines, dashed lines, and other road lane markers. The primary goal of a lane detector is to ensure that a vehicle stays within its designated lane and to provide valuable information to the vehicle's control systems, such as steering assistance and lane-keeping features."
+              data-ja="高速道路車線検出装置は、高度な運転支援システム（ADAS）および自動運転車の重要なコンポーネントです。これは、実線、破線、その他の道路車線標識などの道路上の車線を識別し追跡するために設計された技術です。車線検出装置の主な目的は、車両が指定された車線内に滞在し、ハンドル操作支援や車線維持機能などの車両の制御システムに貴重な情報を提供することです。">
+            </p>
+            <img src="a4.jpg" alt="project" width="800px" height="400px" class="responsive">
+            <p data-en="Rebuilt the python project of Highway road detector which detects the lane using python and its libraries such as numpy, Matplotlib, and OpenCV. This Lane detector will be helpful for building auto-piloting systems in smart automobiles and also the routing systems."
+              data-ja="Pythonとそのライブラリ、NumPy、Matplotlib、OpenCVを使用して車線を検出する高速道路車線検出装置のPythonプロジェクトを再構築しました。この車線検出装置は、スマートな自動車の自動操縦システムやルーティングシステムの構築に役立ちます。">
+            </p>
+            <img src="a1.png" alt="Instagram" width="400px" height="200px" class="responsive">
+            <img src="a2.png" alt="Instagram" width="400px" height="200px" class="responsive">
+            <img src="a3.png" alt="Instagram" width="400px" height="200px" class="responsive">
+            <img src="a4.png" alt="Instagram" width="400px" height="200px" class="responsive">
+            <img src="a5.png" alt="Instagram" width="400px" height="200px" class="responsive">
+            <img src="a6.png" alt="Instagram" width="400px" height="200px" class="responsive">
+            <img src="a7.png" alt="Instagram" width="800px" height="400px" class="responsive">
+          </div>
+        </section>
+        <hr class="line">
+        <section id="project4" class="py-5" style="background-image: url('project4.jpg');">
+          <div class="project p-4">
+            <h2 class="titles" data-en="Project 4 : Smart Attendance manager using python" data-ja="プロジェクト 4 : Pythonを使用したスマート出席管理システム">Project 4 : Smart Attendance manager using python</h2>
+            <br>
+            <img src="b1.png" alt="Instagram" width="600px" height="300px" class="responsive">
+            <img src="b2.png" alt="Instagram" width="600px" height="300px" class="responsive">
+            <p data-en="Face Detection Attendance Manager built using python and its libraries such as openCV, NumPy, face-recognition. This offers several advantages over traditional attendance management methods, such as manual paper-based systems or card-swipe systems. This technology provides high accuracy in attendance management. It minimizes the chances of proxy attendance or fraudulent practices, as it verifies the identity of individuals based on their facial features."
+              data-ja="Pythonおよびそのライブラリ、openCV、NumPy、face-recognitionを使用した顔認識出席管理システム。これは、従来の出席管理方法、例えば、手動の紙ベースのシステムやカードスワイプシステムに比べていくつかの利点を提供します。このテクノロジーは出席管理において高い精度を提供します。プロキシ出席や不正な実践の可能性を最小限に抑え、個々の顔の特徴に基づいて個人の身元を確認します。">Description of project 4.
+            </p>
+          </div>
+        </section>
+
+      </div>
+    </div>
+  </section>
+  <section id="contact" class="py-5">
+    <div class="container">
+      <div class="contact_cont">
+        <h1 data-en="Certifications" data-ja="認定">Certifications</h1>
+        <p data-en="Your certification details here." data-ja="認定の詳細はこちら。"></p>
+        <br>
+        <br>
+        <h2>1. Course to build 15 Augmented Reality (AR) apps with Unity & Vuforia using C# by Udemy
+        </h2>
+        <p data-en="This course is designed for students interested in creating Augmented Reality apps. An Android or iOS device was used for testing your Augmented Reality apps. We started from basics of Unity, C# platform and then moved to higher topics."
+          data-ja="このコースは、Augmented Realityアプリを作成したい学生向けに設計されています。 AndroidまたはiOSデバイスを使用してAugmented Realityアプリをテストしました。 Unity、C＃プラットフォームの基本から始めて、高度なトピックに移りました。"></p>
+        <img src="certificate 1.jpg" alt="Instagram" width="1000px" height="800px" class="responsive">
+        <br>
+        <br>
+        <br>
+        <br>
+
+        <h2>2. The Complete 2023 Web Development Bootcamp
+        </h2>
+        <p data-en="Throughout this comprehensive course, I studied and gained knowledge on a massive amount of tools and technologies, including Front-End Web Development, HTML 5, CSS 3, Flexbox, Grid, Bootstrap 5, Javascript ES6, DOM Manipulation, jQuery, Bash Command Line, Git, GitHub and Version Control, Backend Web Development, Node.js, NPM, Express.js, EJS, REST APIs, Databases, SQL, PostgreSQL, Authentication, Firebase, React.js, React Hooks, Web Design, Deployment with GitHub Pages, Web3 Development on the Internet Computer, Blockchain technology, Token contract development, NFT minting, buying and selling logic."
+          data-ja="この包括的なコースを通じて、私はFront-End Web Development、HTML 5、CSS 3、Flexbox、Grid、Bootstrap 5、Javascript ES6、DOM Manipulation、jQuery、Bash Command Line、Git、GitHubおよびバージョンコントロール、バックエンドWeb Development、Node.js、NPM、Express.js、EJS、REST APIs、データベース、SQL、PostgreSQL、認証、Firebase、React.js、React Hooks、Webデザイン、GitHub Pagesでのデプロイ、Internet ComputerでのWeb3 Development、ブロックチェーン技術、トークン契約の開発、NFTの鋳造、購入、販売ロジックなど、多くのツールと技術について学び、知識を得ました。">
+        </p>
+        <img src="certificate2.jpg" alt="Instagram" width="1000px" height="800px" class="responsive">
+        <br>
+        <br>
+        <br>
+        <br>
+        <h2>3. The Joy of Computing using Python</h2>
+        <p data-en="Python certification course by the prestigious Indian Institute of Technology Madras" data-ja="名門Indian Institute of Technology MadrasによるPython認定コース"></p>
+        <img src="certificate3.jpg" alt="Instagram" width="1000px" height="800px" class="responsive">
+      </div>
+    </div>
+  </section>
+  <footer class="copyright">
+        <div class="container">
+            <p>&copy; NITIN SHREEPAD KOLEKAR. All rights reserved.</p>
+        </div>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="/main.js"></script>
+  <script src="/language.js"></script>
+</body>
+
+</html>
