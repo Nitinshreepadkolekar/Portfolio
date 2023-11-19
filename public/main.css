@@ -33,6 +33,7 @@ header {
   transition: 0.3s;
 }
 
+
 .navbar .navbar-nav .nav-link:hover {
   background-color: #2980b9;
   color: #ffffff;
@@ -259,4 +260,13 @@ section.show {
 .container {
   max-width: 1480px;
   margin: 0 auto;
+}
+
+@media screen and (max-width: 768px) {
+  .navbar .navbar-brand {
+    font-size: 25px; /* Reducing font size for smaller screens */
+  }
+  section {
+    font-size: 14px; /* Reducing font size for smaller screens */
+  }
 }
